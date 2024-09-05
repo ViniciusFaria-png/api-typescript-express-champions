@@ -14,7 +14,6 @@ export const getPlayerService = async () => {
     return response
 }
 
-
 export const getPlayerByIdService = async (id: number) => {
     const data = await PlayerRepository.findPlayerById(id)
     let response = null;
@@ -28,7 +27,6 @@ export const getPlayerByIdService = async (id: number) => {
     return response;
 }
 
-
 export const createPlayerService = async (player: PlayerModel) => {
     let response = null
     if(Object.keys(player).length !== 0){
@@ -38,5 +36,13 @@ export const createPlayerService = async (player: PlayerModel) => {
         response = badRequest();
     }
 
+    return response
+}
+
+export const deletePlayerService = async (id: number) => {
+    let response = null
+    await PlayerRepository.deleteOnePlayer(id)
+
+    response = ok({message: "deleted"})
     return response
 }

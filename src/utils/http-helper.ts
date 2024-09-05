@@ -21,7 +21,6 @@ export const badRequest = async(): Promise<HttpResponse> => {
     }
 }
 
-
 export const created = async(): Promise<HttpResponse> => {
     return {
         statusCode: 201,
