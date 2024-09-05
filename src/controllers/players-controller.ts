@@ -1,4 +1,4 @@
-import {Request, response, Response} from "express"
+import {Request, Response} from "express"
 import { getPlayerByIdService, getPlayerService, createPlayerService, deletePlayerService, updatePlayerService } from "../services/players-service"
 import { noContent } from "../utils/http-helper"
 import { StatisticsModel } from "../models/statistics-model"
