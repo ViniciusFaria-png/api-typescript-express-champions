@@ -2,6 +2,7 @@ import { response } from "express";
 import { PlayerModel } from "../models/player-model";
 import * as PlayerRepository from "../repositories/players-repository"
 import { noContent, ok , badRequest, created} from "../utils/http-helper"
+import { StatisticsModel } from "../models/statistics-model";
 
 export const getPlayerService = async () => {
     const data = await PlayerRepository.findAllPlayers();
@@ -19,9 +20,9 @@ export const getPlayerByIdService = async (id: number) => {
     let response = null;
 
     if(data){
-        response = ok(data)
+        response = await ok(data)
     }else{
-        response = noContent();
+        response = await noContent();
     }
 
     return response;
@@ -31,18 +32,34 @@ export const createPlayerService = async (player: PlayerModel) => {
     let response = null
     if(Object.keys(player).length !== 0){
         await PlayerRepository.insertPlayer(player)
-        response = created()
+        response = await created()
     }else{
-        response = badRequest();
+        response = await badRequest();
     }
 
     return response
 }
 
 export const deletePlayerService = async (id: number) => {
+    const isDeleted = await PlayerRepository.deleteOnePlayer(id)
     let response = null
-    await PlayerRepository.deleteOnePlayer(id)
 
-    response = ok({message: "deleted"})
+    if(!isDeleted){
+        response = await badRequest();
+    } else {
+        response = await ok({message: "deleted"})
+    }
+    return response
+}
+
+export const updatePlayerService = async (id: number, statistics: StatisticsModel) => { 
+    const data = await PlayerRepository.findAndModifyPlayer(id, statistics)
+    let response = null
+
+    if(Object.keys(data).length === 0){
+        response = await badRequest();
+    } else{
+        response = await ok(data)
+    }
     return response
 }
