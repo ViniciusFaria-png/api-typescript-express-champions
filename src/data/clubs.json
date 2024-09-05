@@ -1,0 +1,402 @@
+[
+    { 
+        "id": 1,
+        "name": "Real Madrid"
+    },
+    {
+        "id": 2,
+        "name": "Barcelona"
+    },
+    {
+        "id": 3,
+        "name": "Manchester United"
+    },
+    {
+        "id": 4,
+        "name": "Chelsea"
+    },
+    {
+        "id": 5,
+        "name": "Liverpool"
+    },
+    {
+        "id": 6,
+        "name": "Juventus"
+    },
+    {
+        "id": 7,
+        "name": "Paris Saint-Germain"
+    },
+    {
+        "id": 8,
+        "name": "Bayern Munich"
+    },
+    {
+        "id": 9,
+        "name": "Inter de Milão"
+    },
+    {
+        "id": 10,
+        "name": "Milan"
+    },
+    {
+        "id": 11,
+        "name": "Arsenal"
+    },
+    {
+        "id": 12,
+        "name": "Manchester City"
+    },
+    {
+        "id": 13,
+        "name": "Tottenham Hotspur"
+    },
+    {
+        "id": 14,
+        "name": "Atlético de Madrid"
+    },
+    {
+        "id": 15,
+        "name": "Napoli"
+    },
+    {
+        "id": 16,
+        "name": "Sevilla"
+    },
+    {
+        "id": 17,
+        "name": "Roma"
+    },
+    {
+        "id": 18,
+        "name": "Lazio"
+    },
+    {
+        "id": 19,
+        "name": "Borussia Dortmund"
+    },
+    {
+        "id": 20,
+        "name": "RB Leipzig"
+    },
+    {
+        "id": 21,
+        "name": "Ajax"
+    },
+    {
+        "id": 22,
+        "name": "Porto"
+    },
+    {
+        "id": 23,
+        "name": "Benfica"
+    },
+    {
+        "id": 24,
+        "name": "Sporting CP"
+    },
+    {
+        "id": 25,
+        "name": "Villarreal"
+    },
+    {
+        "id": 26,
+        "name": "Shakhtar Donetsk"
+    },
+    {
+        "id": 27,
+        "name": "Galatasaray"
+    },
+    {
+        "id": 28,
+        "name": "Fenerbahçe"
+    },
+    {
+        "id": 29,
+        "name": "Olympique de Marseille"
+    },
+    {
+        "id": 30,
+        "name": "Olympique Lyonnais"
+    },
+    {
+        "id": 31,
+        "name": "PSV Eindhoven"
+    },
+    {
+        "id": 32,
+        "name": "Zenit São Petersburgo"
+    },
+    {
+        "id": 33,
+        "name": "Flamengo"
+    },
+    {
+        "id": 34,
+        "name": "Palmeiras"
+    },
+    {
+        "id": 35,
+        "name": "Corinthians"
+    },
+    {
+        "id": 36,
+        "name": "São Paulo"
+    },
+    {
+        "id": 37,
+        "name": "Grêmio"
+    },
+    {
+        "id": 38,
+        "name": "Internacional"
+    },
+    {
+        "id": 39,
+        "name": "Santos"
+    },
+    {
+        "id": 40,
+        "name": "River Plate"
+    },
+    {
+        "id": 41,
+        "name": "Boca Juniors"
+    },
+    {
+        "id": 42,
+        "name": "Independiente"
+    },
+    {
+        "id": 43,
+        "name": "Racing Club"
+    },
+    {
+        "id": 44,
+        "name": "Estudiantes"
+    },
+    {
+        "id": 45,
+        "name": "Cruz Azul"
+    },
+    {
+        "id": 46,
+        "name": "América"
+    },
+    {
+        "id": 47,
+        "name": "Chivas Guadalajara"
+    },
+    {
+        "id": 48,
+        "name": "Pumas UNAM"
+    },
+    {
+        "id": 49,
+        "name": "Los Angeles Galaxy"
+    },
+    {
+        "id": 50,
+        "name": "New York City FC"
+    },
+    {
+        "id": 51,
+        "name": "Toronto FC"
+    },
+    {
+        "id": 52,
+        "name": "Seattle Sounders"
+    },
+    {
+        "id": 53,
+        "name": "Atlanta United"
+    },
+    {
+        "id": 54,
+        "name": "River Plate (Uruguai)"
+    },
+    {
+        "id": 55,
+        "name": "Peñarol"
+    },
+    {
+        "id": 56,
+        "name": "Nacional (Uruguai)"
+    },
+    {
+        "id": 57,
+        "name": "Cerro Porteño"
+    },
+    {
+        "id": 58,
+        "name": "Olimpia"
+    },
+    {
+        "id": 59,
+        "name": "Colo-Colo"
+    },
+    {
+        "id": 60,
+        "name": "Universidad de Chile"
+    },
+    {
+        "id": 61,
+        "name": "Sporting Cristal"
+    },
+    {
+        "id": 62,
+        "name": "Alianza Lima"
+    },
+    {
+        "id": 63,
+        "name": "Barcelona SC"
+    },
+    {
+        "id": 64,
+        "name": "Emelec"
+    },
+    {
+        "id": 65,
+        "name": "LDU Quito"
+    },
+    {
+        "id": 66,
+        "name": "Junior Barranquilla"
+    },
+    {
+        "id": 67,
+        "name": "Atlético Nacional"
+    },
+    {
+        "id": 68,
+        "name": "Deportivo Cali"
+    },
+    {
+        "id": 69,
+        "name": "Independiente Medellín"
+    },
+    {
+        "id": 70,
+        "name": "Newell's Old Boys"
+    },
+    {
+        "id": 71,
+        "name": "Rosario Central"
+    },
+    {
+        "id": 72,
+        "name": "Vélez Sarsfield"
+    },
+    {
+        "id": 73,
+        "name": "San Lorenzo"
+    },
+    {
+        "id": 74,
+        "name": "Lanús"
+    },
+    {
+        "id": 75,
+        "name": "Arsenal de Sarandí"
+    },
+    {
+        "id": 76,
+        "name": "Tigres UANL"
+    },
+    {
+        "id": 77,
+        "name": "Pachuca"
+    },
+    {
+        "id": 78,
+        "name": "Monterrey"
+    },
+    {
+        "id": 79,
+        "name": "León"
+    },
+    {
+        "id": 80,
+        "name": "Toluca"
+    },
+    {
+        "id": 81,
+        "name": "Atalanta"
+    },
+    {
+        "id": 82,
+        "name": "Fiorentina"
+    },
+    {
+        "id": 83,
+        "name": "Sampdoria"
+    },
+    {
+        "id": 84,
+        "name": "Real Betis"
+    },
+    {
+        "id": 85,
+        "name": "Valencia"
+    },
+    {
+        "id": 86,
+        "name": "Real Sociedad"
+    },
+    {
+        "id": 87,
+        "name": "Celta de Vigo"
+    },
+    {
+        "id": 88,
+        "name": "Granada"
+    },
+    {
+        "id": 89,
+        "name": "Levante"
+    },
+    {
+        "id": 90,
+        "name": "Real Valladolid"
+    },
+    {
+        "id": 91,
+        "name": "Osasuna"
+    },
+    {
+        "id": 92,
+        "name": "Alavés"
+    },
+    {
+        "id": 93,
+        "name": "Getafe"
+    },
+    {
+        "id": 94,
+        "name": "Espanyol"
+    },
+    {
+        "id": 95,
+        "name": "Mallorca"
+    },
+    {
+        "id": 96,
+        "name": "Sheffield United"
+    },
+    {
+        "id": 97,
+        "name": "Wolverhampton Wanderers"
+    },
+    {
+        "id": 98,
+        "name": "West Ham United"
+    },
+    {
+        "id": 99,
+        "name": "Leicester City"
+    },
+    {
+        "id": 100,
+        "name": "Aston Villa"
+    }
+]
